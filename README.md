@@ -18,7 +18,7 @@ Services → Work → Process → Technology → Studio → Contact, with each p
 linking out to a long-form case study at `/work/[slug]`.
 
 Content is not hard-coded in JSX. Services, projects, process steps, technology
-and studio facts all live in [`blackcarmine/lib/data.ts`](./blackcarmine/lib/data.ts)
+and studio facts all live in [`lib/data.ts`](./lib/data.ts)
 as typed data, so copy changes and new case studies ship without touching
 component code.
 
@@ -53,10 +53,9 @@ component code.
 ## Project structure
 
 ```
-blackcarmine/
 ├── app/
 │   ├── layout.tsx          # Root layout: providers, cursor, grain, header/footer
-│   ├── page.tsx           # Homepage section composition
+│   ├── page.tsx            # Homepage section composition
 │   ├── work/[slug]/        # Dynamic case-study pages
 │   ├── sitemap.ts          # Generated from PROJECTS
 │   ├── robots.ts
@@ -69,8 +68,9 @@ blackcarmine/
 │   ├── visuals/            # ProjectVisual
 │   ├── work/               # CaseStudy
 │   └── providers/          # SmoothScroll (Lenis)
-└── lib/
-    └── data.ts             # Typed content: services, projects, process, stack
+├── lib/
+│   └── data.ts             # Typed content: services, projects, process, stack
+└── docs/                   # Design-review screenshots and reference captures
 ```
 
 ## Getting started
@@ -78,7 +78,6 @@ blackcarmine/
 Requires Node.js 20.9+ and npm.
 
 ```bash
-cd blackcarmine
 npm install
 npm run dev      # http://localhost:3000
 ```
@@ -107,9 +106,9 @@ Tailwind through `@theme inline`:
 
 ## Repository notes
 
-`blackcarmine/` is the application source and contains its own Git history.
-Top-level assets (audit screenshots, reference captures) sit alongside it for
-design review purposes only and are not part of the build.
+The Next.js application lives directly at the repository root. Design-review
+screenshots and reference captures are kept in [`docs/`](./docs) and are not
+part of the build.
 
 ## Contact
 

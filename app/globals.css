@@ -1,0 +1,389 @@
+@import "tailwindcss";
+
+/* ============================================================
+   BLACKCARMINE — Design tokens
+   ============================================================ */
+:root {
+  --bg: #08070a;
+  --bg-2: #0e0d13;
+  --surface: #14131a;
+  --surface-2: #1b1922;
+  --ink: #f4f1ea;
+  --ink-dim: #cfcbc1;
+  --muted: #8d867d;
+  --muted-2: #7d766c;
+  --line: rgba(244, 241, 234, 0.12);
+  --line-strong: rgba(244, 241, 234, 0.22);
+
+  --carmine: #e8214b;
+  --carmine-deep: #8e0028;
+  --carmine-soft: #ff5c7a;
+  --carmine-glow: rgba(232, 33, 75, 0.28);
+
+  --radius: 2px;
+
+  --font-display: var(--font-syne), "Helvetica Neue", Arial, sans-serif;
+  --font-sans: var(--font-inter), "Helvetica Neue", Arial, sans-serif;
+  --font-mono: var(--font-space-grotesk), ui-monospace, monospace;
+
+  --ease-premium: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out-quart: cubic-bezier(0.76, 0, 0.24, 1);
+
+  --header-h: 72px;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-2: var(--bg-2);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-dim: var(--ink-dim);
+  --color-muted: var(--muted);
+  --color-muted-2: var(--muted-2);
+  --color-carmine: var(--carmine);
+  --color-carmine-deep: var(--carmine-deep);
+  --color-carmine-soft: var(--carmine-soft);
+
+  --font-display: var(--font-display);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+
+  --ease-premium: var(--ease-premium);
+  --ease-out-expo: var(--ease-out-expo);
+}
+
+* {
+  border-color: var(--line);
+}
+
+html {
+  scroll-behavior: auto;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  /* Safety net against unclipped decorative elements (marquee, orbs,
+     split-text spans) creating a horizontal scrollbar. */
+  overflow-x: clip;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-weight: 400;
+  cursor: none;
+}
+
+/* Touch / coarse pointers: restore native cursor, disable parallax-ish fx */
+@media (hover: none), (pointer: coarse) {
+  body {
+    cursor: auto;
+  }
+}
+
+::selection {
+  background: var(--carmine);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--carmine);
+  outline-offset: 3px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2830;
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--carmine-deep);
+}
+
+/* ============================================================
+   Utilities
+   ============================================================ */
+.font-display {
+  font-family: var(--font-display);
+}
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+.label {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Line-mask reveal — wraps lines so they clip when translated */
+.mask-line {
+  display: block;
+  overflow: hidden;
+}
+.mask-line > span {
+  display: block;
+  will-change: transform;
+}
+
+/* SplitText mask lines: single words longer than the column (e.g.
+   "unforgettable." at narrow widths) must be allowed to break,
+   otherwise the flex chain refuses to shrink and overflows. */
+.split-line {
+  overflow-wrap: anywhere;
+}
+
+/* Animated link underline */
+.link-underline {
+  position: relative;
+  display: inline-block;
+}
+.link-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 1px;
+  width: 100%;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right center;
+  transition: transform 0.5s var(--ease-premium);
+}
+.link-underline:hover::after,
+.link-underline:focus-visible::after {
+  transform: scaleX(1);
+  transform-origin: left center;
+}
+
+/* Grain overlay */
+.grain {
+  position: fixed;
+  inset: 0;
+  overflow: clip;
+  pointer-events: none;
+  z-index: 9998;
+  opacity: 0.055;
+}
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: -150%;
+  width: 400%;
+  height: 400%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+  animation: grain-shift 6s steps(6) infinite;
+  will-change: transform;
+}
+/* Hidden-tab / overlay pause switch. The animation lives on ::after, so the
+   class must target the pseudo-element — toggling the host element's own
+   animation-play-state does nothing (it has no animation of its own). */
+.grain[data-paused="true"]::after {
+  animation-play-state: paused;
+}
+@keyframes grain-shift {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  20% {
+    transform: translate3d(-2%, 1%, 0);
+  }
+  40% {
+    transform: translate3d(1%, -2%, 0);
+  }
+  60% {
+    transform: translate3d(-1%, -1%, 0);
+  }
+  80% {
+    transform: translate3d(2%, 1%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* Marquee */
+.marquee-track {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+}
+.marquee-track[data-dir="left"] {
+  animation: marquee-left var(--marquee-duration, 32s) linear infinite;
+}
+.marquee-track[data-dir="right"] {
+  animation: marquee-right var(--marquee-duration, 32s) linear infinite;
+}
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+@keyframes marquee-left {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+@keyframes marquee-right {
+  from {
+    transform: translate3d(-50%, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* Service row expand */
+.expand-grid {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.7s var(--ease-in-out-quart);
+}
+.expand-grid[data-open="true"] {
+  grid-template-rows: 1fr;
+}
+.expand-grid > .expand-inner {
+  overflow: hidden;
+  min-height: 0;
+}
+
+/* Hover gradient text */
+.text-carmine-gradient {
+  background: linear-gradient(
+    100deg,
+    var(--carmine-soft) 0%,
+    var(--carmine) 45%,
+    var(--carmine-deep) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Form fields */
+.form-input {
+  width: 100%;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  padding: 0.75rem 0.9rem;
+  transition: border-color 0.3s var(--ease-premium), background 0.3s var(--ease-premium);
+}
+.form-input::placeholder {
+  color: var(--muted-2);
+}
+.form-input:focus {
+  outline: none;
+  border-color: var(--carmine);
+  background: #0c0b10;
+}
+.form-input[aria-invalid="true"] {
+  border-color: var(--carmine);
+}
+select.form-input {
+  cursor: pointer;
+  background-image: linear-gradient(
+      45deg,
+      transparent 50%,
+      var(--muted) 50%
+    ),
+    linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+  background-position:
+    calc(100% - 1.1rem) 50%,
+    calc(100% - 0.7rem) 50%;
+  background-size: 0.35rem 0.35rem, 0.35rem 0.35rem;
+  background-repeat: no-repeat;
+}
+select.form-input option {
+  background: var(--surface);
+  color: var(--ink);
+}
+
+/* Section vertical rhythm */
+.section {
+  padding-top: clamp(5rem, 12vh, 9rem);
+  padding-bottom: clamp(5rem, 12vh, 9rem);
+}
+
+/* Anchored sections need clearance for the fixed header, otherwise the top
+   of the target sits underneath it after a hash scroll. */
+#services,
+#work,
+#process,
+#studio,
+#contact {
+  scroll-margin-top: var(--header-h);
+}
+
+.hairline {
+  height: 1px;
+  width: 100%;
+  background: var(--line);
+}
+
+/* Big display heading scale */
+.display-xl {
+  font-family: var(--font-display);
+  font-weight: 800;
+  line-height: 0.88;
+  letter-spacing: -0.03em;
+  /* Sized so the longest hero phrase ("Digital products") never wraps
+     inside the 1600px container on desktop — keeps the 3-line mask
+     reveal intact and the first viewport cinematic. */
+  font-size: clamp(2.5rem, 5.4vw, 5.75rem);
+  text-transform: uppercase;
+}
+.display-lg {
+  font-family: var(--font-display);
+  font-weight: 800;
+  line-height: 0.9;
+  letter-spacing: -0.025em;
+  font-size: clamp(1.9rem, 4.2vw, 5.5rem);
+  text-transform: uppercase;
+}
+.display-md {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  font-size: clamp(1.6rem, 3.2vw, 2.6rem);
+  text-transform: uppercase;
+}
+
+/* Hide scroll while preloading */
+body.is-loading {
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .grain::after {
+    animation: none;
+  }
+  .marquee-track {
+    animation: none !important;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
