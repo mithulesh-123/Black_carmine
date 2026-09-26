@@ -1,0 +1,50 @@
+[2026-09-26T14:48:33.569Z] [WARN] Could not read package.json from project root: Error: ENOENT: no such file or directory, open 'C:\EXTRAPROJECTS\BC1\package.json'
+[2026-09-26T14:48:33.571Z] [ERROR] Couldn't find project name in package json
+[2026-09-26T14:48:33.571Z] [WARN] Could not read package.json from project root: Error: ENOENT: no such file or directory, open 'C:\EXTRAPROJECTS\BC1\package.json'
+[2026-09-26T14:48:33.572Z] [INFO] Initializing MCP Server: unnamed-mcp-server@0.0.0
+[2026-09-26T14:48:33.572Z] [DEBUG] Initialized ToolLoader with directory: C:\Users\mithu\AppData\Local\npm-cache\_npx\bbcce2fe225dfb22\node_modules\my-mcp-server\dist\tools
+[2026-09-26T14:48:33.572Z] [DEBUG] Initialized PromptLoader with directory: C:\Users\mithu\AppData\Local\npm-cache\_npx\bbcce2fe225dfb22\node_modules\my-mcp-server\dist\prompts
+[2026-09-26T14:48:33.572Z] [DEBUG] Initialized ResourceLoader with directory: C:\Users\mithu\AppData\Local\npm-cache\_npx\bbcce2fe225dfb22\node_modules\my-mcp-server\dist\resources
+[2026-09-26T14:48:33.572Z] [DEBUG] Looking for tools in: C:\Users\mithu\AppData\Local\npm-cache\_npx\bbcce2fe225dfb22\node_modules\my-mcp-server\dist\tools
+[2026-09-26T14:48:33.572Z] [DEBUG] Looking for prompts in: C:\Users\mithu\AppData\Local\npm-cache\_npx\bbcce2fe225dfb22\node_modules\my-mcp-server\dist\prompts
+[2026-09-26T14:48:33.572Z] [DEBUG] Looking for resources in: C:\Users\mithu\AppData\Local\npm-cache\_npx\bbcce2fe225dfb22\node_modules\my-mcp-server\dist\resources
+[2026-09-26T14:48:33.573Z] [DEBUG] Attempting to load tools from: C:\Users\mithu\AppData\Local\npm-cache\_npx\bbcce2fe225dfb22\node_modules\my-mcp-server\dist\tools
+[2026-09-26T14:48:33.574Z] [DEBUG] Found files in directory: ApiClientTool.js, DataProcessorTool.js, ExampleTool.js, FileHandlerTool.js, MyToolTool.js
+[2026-09-26T14:48:33.574Z] [DEBUG] Checking file ApiClientTool.js: included
+[2026-09-26T14:48:33.575Z] [DEBUG] Attempting to load tool from: C:\Users\mithu\AppData\Local\npm-cache\_npx\bbcce2fe225dfb22\node_modules\my-mcp-server\dist\tools\ApiClientTool.js
+[2026-09-26T14:48:33.578Z] [DEBUG] Validated tool: api-client
+[2026-09-26T14:48:33.578Z] [DEBUG] Checking file DataProcessorTool.js: included
+[2026-09-26T14:48:33.578Z] [DEBUG] Attempting to load tool from: C:\Users\mithu\AppData\Local\npm-cache\_npx\bbcce2fe225dfb22\node_modules\my-mcp-server\dist\tools\DataProcessorTool.js
+[2026-09-26T14:48:33.581Z] [DEBUG] Validated tool: data-processor
+[2026-09-26T14:48:33.581Z] [DEBUG] Checking file ExampleTool.js: included
+[2026-09-26T14:48:33.581Z] [DEBUG] Attempting to load tool from: C:\Users\mithu\AppData\Local\npm-cache\_npx\bbcce2fe225dfb22\node_modules\my-mcp-server\dist\tools\ExampleTool.js
+[2026-09-26T14:48:33.585Z] [DEBUG] Validated tool: example_tool
+[2026-09-26T14:48:33.585Z] [DEBUG] Checking file FileHandlerTool.js: included
+[2026-09-26T14:48:33.585Z] [DEBUG] Attempting to load tool from: C:\Users\mithu\AppData\Local\npm-cache\_npx\bbcce2fe225dfb22\node_modules\my-mcp-server\dist\tools\FileHandlerTool.js
+[2026-09-26T14:48:33.588Z] [DEBUG] Validated tool: file-handler
+[2026-09-26T14:48:33.588Z] [DEBUG] Checking file MyToolTool.js: included
+[2026-09-26T14:48:33.588Z] [DEBUG] Attempting to load tool from: C:\Users\mithu\AppData\Local\npm-cache\_npx\bbcce2fe225dfb22\node_modules\my-mcp-server\dist\tools\MyToolTool.js
+[2026-09-26T14:48:33.591Z] [DEBUG] Validated tool: my-tool
+[2026-09-26T14:48:33.591Z] [DEBUG] Successfully loaded 5 tools: api-client, data-processor, example_tool, file-handler, my-tool
+[2026-09-26T14:48:33.592Z] [DEBUG] Attempting to load prompts from: C:\Users\mithu\AppData\Local\npm-cache\_npx\bbcce2fe225dfb22\node_modules\my-mcp-server\dist\prompts
+[2026-09-26T14:48:33.592Z] [DEBUG] No prompts directory found
+[2026-09-26T14:48:33.593Z] [DEBUG] Attempting to load resources from: C:\Users\mithu\AppData\Local\npm-cache\_npx\bbcce2fe225dfb22\node_modules\my-mcp-server\dist\resources
+[2026-09-26T14:48:33.593Z] [DEBUG] No resources directory found
+[2026-09-26T14:48:33.593Z] [DEBUG] No prompts directory found
+[2026-09-26T14:48:33.594Z] [DEBUG] No resources directory found
+[2026-09-26T14:48:33.594Z] [DEBUG] Creating MCP Server instance
+[2026-09-26T14:48:33.594Z] [DEBUG] Server created with capabilities: {"tools":{"enabled":true}}
+[2026-09-26T14:48:33.594Z] [INFO] Starting transport...
+[2026-09-26T14:48:33.594Z] [DEBUG] Creating transport: stdio
+[2026-09-26T14:48:33.594Z] [INFO] Starting stdio transport
+[2026-09-26T14:48:33.594Z] [INFO] Transport connected successfully
+[2026-09-26T14:48:33.594Z] [INFO] Started unnamed-mcp-server@0.0.0
+[2026-09-26T14:48:33.594Z] [INFO] Transport: stdio
+[2026-09-26T14:48:33.595Z] [INFO] Tools (5): api-client, data-processor, example_tool, file-handler, my-tool
+[2026-09-26T14:48:33.595Z] [INFO] Server running and ready for connections
+[2026-09-26T14:48:33.600Z] [DEBUG] Transport sending message: {"result":{"protocolVersion":"2024-11-05","capabilities":{"tools":{"enabled":true}},"serverInfo":{"name":"unnamed-mcp-server","version":"0.0.0"}},"jsonrpc":"2.0","id":0}
+[2026-09-26T14:48:34.611Z] [DEBUG] Received ListTools request: {"method":"tools/list"}
+[2026-09-26T14:48:34.611Z] [DEBUG] Found 5 tools to return
+[2026-09-26T14:48:34.611Z] [DEBUG] Tool definitions: [{"name":"api-client","description":"ApiClient tool description","inputSchema":{"type":"object","properties":{"message":{"type":"string","description":"Message to process"}}}},{"name":"data-processor","description":"DataProcessor tool description","inputSchema":{"type":"object","properties":{"message":{"type":"string","description":"Message to process"}}}},{"name":"example_tool","description":"An example tool that processes messages","inputSchema":{"type":"object","properties":{"message":{"type":"string","description":"Message to process"}}}},{"name":"file-handler","description":"FileHandler tool description","inputSchema":{"type":"object","properties":{"message":{"type":"string","description":"Message to process"}}}},{"name":"my-tool","description":"MyTool tool description","inputSchema":{"type":"object","properties":{"message":{"type":"string","description":"Message to process"}}}}]
+[2026-09-26T14:48:34.612Z] [DEBUG] Sending ListTools response: {"tools":[{"name":"api-client","description":"ApiClient tool description","inputSchema":{"type":"object","properties":{"message":{"type":"string","description":"Message to process"}}}},{"name":"data-processor","description":"DataProcessor tool description","inputSchema":{"type":"object","properties":{"message":{"type":"string","description":"Message to process"}}}},{"name":"example_tool","description":"An example tool that processes messages","inputSchema":{"type":"object","properties":{"message":{"type":"string","description":"Message to process"}}}},{"name":"file-handler","description":"FileHandler tool description","inputSchema":{"type":"object","properties":{"message":{"type":"string","description":"Message to process"}}}},{"name":"my-tool","description":"MyTool tool description","inputSchema":{"type":"object","properties":{"message":{"type":"string","description":"Message to process"}}}}]}
+[2026-09-26T14:48:34.612Z] [DEBUG] Transport sending message: {"result":{"tools":[{"name":"api-client","description":"ApiClient tool description","inputSchema":{"type":"object","properties":{"message":{"type":"string","description":"Message to process"}}}},{"name":"data-processor","description":"DataProcessor tool description","inputSchema":{"type":"object","properties":{"message":{"type":"string","description":"Message to process"}}}},{"name":"example_tool","description":"An example tool that processes messages","inputSchema":{"type":"object","properties":{"message":{"type":"string","description":"Message to process"}}}},{"name":"file-handler","description":"FileHandler tool description","inputSchema":{"type":"object","properties":{"message":{"type":"string","description":"Message to process"}}}},{"name":"my-tool","description":"MyTool tool description","inputSchema":{"type":"object","properties":{"message":{"type":"string","description":"Message to process"}}}}]},"jsonrpc":"2.0","id":1}
