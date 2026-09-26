@@ -1,0 +1,811 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - paragraph: Award-winning websites and digital products for the brands of tomorrow
+          - generic:
+            - progressbar "Loading"
+            - generic [aria-hidden]:
+              - generic: Experience
+              - generic: is loading
+              - generic: please
+              - generic: wait
+              - generic: 000%
+              - generic: out of
+              - generic: 100%
+      - generic [ref=e4]:
+        - banner [ref=e5]:
+          - generic [ref=e6]:
+            - link "Site logo" [ref=e8] [cursor=pointer]:
+              - /url: /
+            - navigation [ref=e14]:
+              - list [ref=e15]:
+                - listitem [ref=e16]:
+                  - link "About" [ref=e17] [cursor=pointer]:
+                    - /url: /about
+                - listitem [ref=e18]:
+                  - link "Work" [ref=e19] [cursor=pointer]:
+                    - /url: /projects
+                - listitem [ref=e20]:
+                  - link "Contact" [ref=e21] [cursor=pointer]:
+                    - /url: /contact
+            - button "Customise options" [ref=e22] [cursor=pointer]: Settings
+            - generic [ref=e26]:
+              - button "Unmute sound" [pressed] [ref=e28] [cursor=pointer]
+              - link "Let's talk" [ref=e38] [cursor=pointer]:
+                - /url: /contact
+                - generic [ref=e40]:
+                  - generic [ref=e41]: Let's talk
+                  - generic [aria-hidden] [ref=e42]: Let's talk
+        - main [ref=e47]:
+          - generic [ref=e49]:
+            - generic [ref=e51]:
+              - paragraph [ref=e52]: Award-winning websites and digital products for the brands of tomorrow
+              - heading "Where ambitious ideas become interfaces people remember" [level=1] [ref=e53]:
+                - text: Where
+                - generic [ref=e54]: ambitious ideas become interfaces people remember
+            - generic:
+              - generic:
+                - generic: Approach
+                - heading "We&nbsp; build more than websites and products" [level=2]:
+                  - text: We build
+                  - generic:
+                    - generic [aria-hidden]: ↪
+                    - generic: more than
+                  - text: websites and products
+                - paragraph: We create digital experiences where technology and creativity speak the same language
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Vibes
+                  - heading "Technology as emotion" [level=2]:
+                    - text: Technology
+                    - generic:
+                      - generic [aria-hidden]: ↪
+                      - generic: as emotion
+                - paragraph: We turn code into feeling, motion into meaning, and interaction into memory
+            - generic:
+              - generic:
+                - generic: Design
+                - heading "Beauty&nbsp; With a reason" [level=2]:
+                  - text: Beauty With
+                  - generic: a reason
+                - paragraph: Every pixel has a reason. We design to solve real problems and create value
+            - generic:
+              - generic:
+                - generic: OUR PEOPLE
+                - paragraph: Our best work always comes back to one thing
+                - heading "We build with people who care how things feel" [level=2]:
+                  - generic:
+                    - generic: We
+                    - generic [aria-hidden]: ↪
+                  - generic: build with people who care how things feel
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: What we do
+                    - heading "↪ We design and engineer digital products for ambitious teams — from launch sites to full-scale SaaS platforms. We start with why, then design and build the rest" [level=2]:
+                      - generic [aria-hidden]:
+                        - generic:
+                          - generic [aria-hidden]:
+                            - generic [aria-hidden]: ↪
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: W
+                        - generic [aria-hidden]: e
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: d
+                        - generic [aria-hidden]: e
+                        - generic [aria-hidden]: s
+                        - generic [aria-hidden]: i
+                        - generic [aria-hidden]: g
+                        - generic [aria-hidden]: "n"
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: a
+                        - generic [aria-hidden]: "n"
+                        - generic [aria-hidden]: d
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: e
+                        - generic [aria-hidden]: "n"
+                        - generic [aria-hidden]: g
+                        - generic [aria-hidden]: i
+                        - generic [aria-hidden]: "n"
+                        - generic [aria-hidden]: e
+                        - generic [aria-hidden]: e
+                        - generic [aria-hidden]: r
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: d
+                        - generic [aria-hidden]: i
+                        - generic [aria-hidden]: g
+                        - generic [aria-hidden]: i
+                        - generic [aria-hidden]: t
+                        - generic [aria-hidden]: a
+                        - generic [aria-hidden]: l
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: p
+                        - generic [aria-hidden]: r
+                        - generic [aria-hidden]: o
+                        - generic [aria-hidden]: d
+                        - generic [aria-hidden]: u
+                        - generic [aria-hidden]: c
+                        - generic [aria-hidden]: t
+                        - generic [aria-hidden]: s
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: f
+                        - generic [aria-hidden]: o
+                        - generic [aria-hidden]: r
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: a
+                        - generic [aria-hidden]: m
+                        - generic [aria-hidden]: b
+                        - generic [aria-hidden]: i
+                        - generic [aria-hidden]: t
+                        - generic [aria-hidden]: i
+                        - generic [aria-hidden]: o
+                        - generic [aria-hidden]: u
+                        - generic [aria-hidden]: s
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: t
+                        - generic [aria-hidden]: e
+                        - generic [aria-hidden]: a
+                        - generic [aria-hidden]: m
+                        - generic [aria-hidden]: s
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: —
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: f
+                        - generic [aria-hidden]: r
+                        - generic [aria-hidden]: o
+                        - generic [aria-hidden]: m
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: l
+                        - generic [aria-hidden]: a
+                        - generic [aria-hidden]: u
+                        - generic [aria-hidden]: "n"
+                        - generic [aria-hidden]: c
+                        - generic [aria-hidden]: h
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: s
+                        - generic [aria-hidden]: i
+                        - generic [aria-hidden]: t
+                        - generic [aria-hidden]: e
+                        - generic [aria-hidden]: s
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: t
+                        - generic [aria-hidden]: o
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: f
+                        - generic [aria-hidden]: u
+                        - generic [aria-hidden]: l
+                        - generic [aria-hidden]: l
+                        - generic [aria-hidden]: "-"
+                        - generic [aria-hidden]: s
+                        - generic [aria-hidden]: c
+                        - generic [aria-hidden]: a
+                        - generic [aria-hidden]: l
+                        - generic [aria-hidden]: e
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: S
+                        - generic [aria-hidden]: a
+                        - generic [aria-hidden]: a
+                        - generic [aria-hidden]: S
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: p
+                        - generic [aria-hidden]: l
+                        - generic [aria-hidden]: a
+                        - generic [aria-hidden]: t
+                        - generic [aria-hidden]: f
+                        - generic [aria-hidden]: o
+                        - generic [aria-hidden]: r
+                        - generic [aria-hidden]: m
+                        - generic [aria-hidden]: s
+                        - generic [aria-hidden]: .
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: W
+                        - generic [aria-hidden]: e
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: s
+                        - generic [aria-hidden]: t
+                        - generic [aria-hidden]: a
+                        - generic [aria-hidden]: r
+                        - generic [aria-hidden]: t
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: w
+                        - generic [aria-hidden]: i
+                        - generic [aria-hidden]: t
+                        - generic [aria-hidden]: h
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: w
+                        - generic [aria-hidden]: h
+                        - generic [aria-hidden]: "y"
+                        - generic [aria-hidden]: ","
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: t
+                        - generic [aria-hidden]: h
+                        - generic [aria-hidden]: e
+                        - generic [aria-hidden]: "n"
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: d
+                        - generic [aria-hidden]: e
+                        - generic [aria-hidden]: s
+                        - generic [aria-hidden]: i
+                        - generic [aria-hidden]: g
+                        - generic [aria-hidden]: "n"
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: a
+                        - generic [aria-hidden]: "n"
+                        - generic [aria-hidden]: d
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: b
+                        - generic [aria-hidden]: u
+                        - generic [aria-hidden]: i
+                        - generic [aria-hidden]: l
+                        - generic [aria-hidden]: d
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: t
+                        - generic [aria-hidden]: h
+                        - generic [aria-hidden]: e
+                      - generic [aria-hidden]:
+                        - generic [aria-hidden]: r
+                        - generic [aria-hidden]: e
+                        - generic [aria-hidden]: s
+                        - generic [aria-hidden]: t
+                  - generic:
+                    - link "More about us":
+                      - /url: /about
+                      - generic:
+                        - generic: More about us
+                        - generic [aria-hidden]: More about us
+                    - generic:
+                      - list:
+                        - listitem:
+                          - generic: (001)
+                          - generic: Marketing Websites
+                        - listitem:
+                          - generic: (002)
+                          - generic: Landing Pages & Launches
+                        - listitem:
+                          - generic: (003)
+                          - generic: Brand Identity Systems
+                        - listitem:
+                          - generic: (004)
+                          - generic: Product UX & Design
+                        - listitem:
+                          - generic: (005)
+                          - generic: Web Applications
+                        - listitem:
+                          - generic: (006)
+                          - generic: Mobile Applications
+                        - listitem:
+                          - generic: (007)
+                          - generic: E-commerce Platforms
+                        - listitem:
+                          - generic: (008)
+                          - generic: SaaS Dashboards
+                        - listitem:
+                          - generic: (009)
+                          - generic: Custom Motion & Animation
+                        - listitem:
+                          - generic: (010)
+                          - generic: 3D & Interactive Experiences
+                        - listitem:
+                          - generic: (011)
+                          - generic: Design Systems
+                        - listitem:
+                          - generic: (012)
+                          - generic: AI-Driven Interfaces
+            - generic:
+              - generic:
+                - heading "Some of our projects" [level=2]:
+                  - generic: Some
+                  - generic: Of our
+                  - generic [aria-hidden]:
+                    - generic:
+                      - generic: ⟶
+                      - generic: ⟶
+                  - generic: projects
+                - generic:
+                  - paragraph: A selection of projects where design, technology, and strategy come together
+                - list:
+                  - listitem:
+                    - link "UI/UX/Frontend/WebGL E Promo":
+                      - /url: /projects/e-promo
+                      - generic:
+                        - generic [aria-hidden]:
+                          - generic:
+                            - generic:
+                              - generic: PRJCT
+                              - generic: /01
+                            - generic:
+                              - generic: "Created at:"
+                              - generic: 20.08.2024
+                            - generic:
+                              - generic: "Name:"
+                              - generic: E Promo
+                            - generic:
+                              - generic: "Type:"
+                              - generic: website
+                            - generic:
+                              - generic: "Scope:"
+                              - generic:
+                                - generic: UI/UX
+                                - generic: Frontend
+                                - generic: WebGL
+                            - generic:
+                              - generic: "Stack:"
+                              - generic:
+                                - generic: GSAP
+                                - generic: Nuxt 3
+                                - generic: Three.js
+                      - generic:
+                        - list:
+                          - listitem: UI/UX/
+                          - listitem: Frontend/
+                          - listitem: WebGL
+                        - generic:
+                          - heading "E Promo" [level=3]
+                  - listitem:
+                    - link "UI/UX/Frontend/WebGL Flashform":
+                      - /url: /projects/flashform
+                      - generic:
+                        - generic [aria-hidden]:
+                          - generic:
+                            - generic:
+                              - generic: PRJCT
+                              - generic: /02
+                            - generic:
+                              - generic: "Created at:"
+                              - generic: 23.12.2024
+                            - generic:
+                              - generic: "Name:"
+                              - generic: Flashform
+                            - generic:
+                              - generic: "Type:"
+                              - generic: website
+                            - generic:
+                              - generic: "Scope:"
+                              - generic:
+                                - generic: UI/UX
+                                - generic: Frontend
+                                - generic: WebGL
+                            - generic:
+                              - generic: "Stack:"
+                              - generic:
+                                - generic: GSAP
+                                - generic: Nuxt 3
+                                - generic: Three.js
+                      - generic:
+                        - list:
+                          - listitem: UI/UX/
+                          - listitem: Frontend/
+                          - listitem: WebGL
+                        - generic:
+                          - heading "Flashform" [level=3]
+                  - listitem:
+                    - link "Sofia Shcherbak UI/UX/Frontend/WebGL Sofia Shcherbak":
+                      - /url: /projects/sofia-shcherbak
+                      - generic:
+                        - img "Sofia Shcherbak"
+                        - generic [aria-hidden]:
+                          - generic:
+                            - generic:
+                              - generic: PRJCT
+                              - generic: /03
+                            - generic:
+                              - generic: "Created at:"
+                              - generic: 07.04.2024
+                            - generic:
+                              - generic: "Name:"
+                              - generic: Sofia Shcherbak
+                            - generic:
+                              - generic: "Type:"
+                              - generic: website
+                            - generic:
+                              - generic: "Scope:"
+                              - generic:
+                                - generic: UI/UX
+                                - generic: Frontend
+                                - generic: WebGL
+                            - generic:
+                              - generic: "Stack:"
+                              - generic:
+                                - generic: GSAP
+                                - generic: Nuxt 3
+                                - generic: Three.js
+                                - generic: Storyblok
+                      - generic:
+                        - list:
+                          - listitem: UI/UX/
+                          - listitem: Frontend/
+                          - listitem: WebGL
+                        - generic:
+                          - heading "Sofia Shcherbak" [level=3]
+                  - listitem:
+                    - link "Relive by Coco UI/UX/Frontend/E-commerce Relive by Coco":
+                      - /url: /projects/relive-by-coco
+                      - generic:
+                        - img "Relive by Coco"
+                        - generic [aria-hidden]:
+                          - generic:
+                            - generic:
+                              - generic: PRJCT
+                              - generic: /04
+                            - generic:
+                              - generic: "Created at:"
+                              - generic: 20.03.2023
+                            - generic:
+                              - generic: "Name:"
+                              - generic: Relive by Coco
+                            - generic:
+                              - generic: "Type:"
+                              - generic: website
+                            - generic:
+                              - generic: "Scope:"
+                              - generic:
+                                - generic: UI/UX
+                                - generic: Frontend
+                                - generic: E-commerce
+                            - generic:
+                              - generic: "Stack:"
+                              - generic:
+                                - generic: GSAP
+                                - generic: Nuxt 3
+                                - generic: Shopify
+                                - generic: Three.js
+                      - generic:
+                        - list:
+                          - listitem: UI/UX/
+                          - listitem: Frontend/
+                          - listitem: E-commerce
+                        - generic:
+                          - heading "Relive by Coco" [level=3]
+                  - listitem:
+                    - link "smp fnnc. UI/UX/Frontend/Backend smp fnnc.":
+                      - /url: /projects/smp-fnnc
+                      - generic:
+                        - img "smp fnnc."
+                        - generic [aria-hidden]:
+                          - generic:
+                            - generic:
+                              - generic: PRJCT
+                              - generic: /05
+                            - generic:
+                              - generic: "Created at:"
+                              - generic: 18.02.2025
+                            - generic:
+                              - generic: "Name:"
+                              - generic: smp fnnc.
+                            - generic:
+                              - generic: "Type:"
+                              - generic: product
+                            - generic:
+                              - generic: "Scope:"
+                              - generic:
+                                - generic: UI/UX
+                                - generic: Frontend
+                                - generic: Backend
+                            - generic:
+                              - generic: "Stack:"
+                              - generic:
+                                - generic: Nuxt 3
+                                - generic: Express.js
+                      - generic:
+                        - list:
+                          - listitem: UI/UX/
+                          - listitem: Frontend/
+                          - listitem: Backend
+                        - generic:
+                          - heading "smp fnnc." [level=3]
+                  - listitem:
+                    - link "Ksh Design Frontend/CMS Ksh Design":
+                      - /url: /projects/ksh-design
+                      - generic:
+                        - img "Ksh Design"
+                        - generic [aria-hidden]:
+                          - generic:
+                            - generic:
+                              - generic: PRJCT
+                              - generic: /06
+                            - generic:
+                              - generic: "Created at:"
+                              - generic: 10.12.2021
+                            - generic:
+                              - generic: "Name:"
+                              - generic: Ksh Design
+                            - generic:
+                              - generic: "Type:"
+                              - generic: website
+                            - generic:
+                              - generic: "Scope:"
+                              - generic:
+                                - generic: Frontend
+                                - generic: CMS
+                            - generic:
+                              - generic: "Stack:"
+                              - generic:
+                                - generic: GSAP
+                                - generic: Nuxt 4
+                                - generic: Storyblok
+                      - generic:
+                        - list:
+                          - listitem: Frontend/
+                          - listitem: CMS
+                        - generic:
+                          - heading "Ksh Design" [level=3]
+                  - listitem:
+                    - link "Aura Frontend/Web3 Aura":
+                      - /url: /projects/aura
+                      - generic:
+                        - img "Aura"
+                        - generic [aria-hidden]:
+                          - generic:
+                            - generic:
+                              - generic: PRJCT
+                              - generic: /07
+                            - generic:
+                              - generic: "Created at:"
+                              - generic: 20.03.2022
+                            - generic:
+                              - generic: "Name:"
+                              - generic: Aura
+                            - generic:
+                              - generic: "Type:"
+                              - generic: product
+                            - generic:
+                              - generic: "Scope:"
+                              - generic:
+                                - generic: Frontend
+                                - generic: Web3
+                            - generic:
+                              - generic: "Stack:"
+                              - generic:
+                                - generic: Nuxt 2
+                                - generic: Three.js
+                                - generic: BrightID
+                      - generic:
+                        - list:
+                          - listitem: Frontend/
+                          - listitem: Web3
+                        - generic:
+                          - heading "Aura" [level=3]
+                  - listitem:
+                    - link "Kairos Capital UI/UX/Frontend/CMS Kairos Capital":
+                      - /url: /projects/kairos
+                      - generic:
+                        - img "Kairos Capital"
+                        - generic [aria-hidden]:
+                          - generic:
+                            - generic:
+                              - generic: PRJCT
+                              - generic: /08
+                            - generic:
+                              - generic: "Created at:"
+                              - generic: 13.10.2023
+                            - generic:
+                              - generic: "Name:"
+                              - generic: Kairos Capital
+                            - generic:
+                              - generic: "Type:"
+                              - generic: website
+                            - generic:
+                              - generic: "Scope:"
+                              - generic:
+                                - generic: UI/UX
+                                - generic: Frontend
+                                - generic: CMS
+                            - generic:
+                              - generic: "Stack:"
+                              - generic:
+                                - generic: GSAP
+                                - generic: Nuxt 3
+                                - generic: Storyblok
+                      - generic:
+                        - list:
+                          - listitem: UI/UX/
+                          - listitem: Frontend/
+                          - listitem: CMS
+                        - generic:
+                          - heading "Kairos Capital" [level=3]
+                - link "View all projects":
+                  - /url: /projects
+                  - generic:
+                    - generic: View all projects
+                    - generic [aria-hidden]: View all projects
+            - generic:
+              - generic:
+                - generic:
+                  - heading "Awards & recognitions" [level=2]
+                  - paragraph: Our work has been recognized by leading design platforms and trusted by clients worldwide
+                  - generic: "Total: 70"
+                - list:
+                  - listitem:
+                    - generic:
+                      - heading "AWWWARDS" [level=3]:
+                        - link "AWWWARDS":
+                          - /url: https://www.awwwards.com/emotion/
+                      - generic: "[31]"
+                    - list:
+                      - listitem:
+                        - heading "Studio of the year nominee" [level=4]
+                        - generic: 2x
+                      - listitem:
+                        - heading "Developer of the year nominee" [level=4]
+                        - generic: 1x
+                      - listitem:
+                        - heading "Mobile site of the year nominee" [level=4]
+                        - generic: 3x
+                      - listitem:
+                        - heading "Site of the day" [level=4]
+                        - generic: 4x
+                      - listitem:
+                        - heading "Developer Award" [level=4]
+                        - generic: 4x
+                      - listitem:
+                        - heading "Honorable mention" [level=4]
+                        - generic: 14x
+                      - listitem:
+                        - heading "Mobile of the week" [level=4]
+                        - generic: 3x
+                  - listitem:
+                    - generic:
+                      - heading "CSS Design Awards" [level=3]:
+                        - link "CSS Design Awards":
+                          - /url: https://www.cssdesignawards.com/search?search_term=emotion+agency
+                      - generic: "[32]"
+                    - list:
+                      - listitem:
+                        - heading "Designer of the year nominee" [level=4]
+                        - generic: 1x
+                      - listitem:
+                        - heading "Site of the day" [level=4]
+                        - generic: 9x
+                      - listitem:
+                        - heading "Special Kudos" [level=4]
+                        - generic: 11x
+                      - listitem:
+                        - heading "UI, UX, Innovation" [level=4]
+                        - generic: 11x
+                  - listitem:
+                    - generic:
+                      - heading "Behance" [level=3]:
+                        - link "Behance":
+                          - /url: https://www.behance.net/emotion-agency
+                      - generic: "[4]"
+                    - list:
+                      - listitem:
+                        - heading "XD Gallery" [level=4]
+                        - generic: 2x
+                      - listitem:
+                        - heading "UI Gallery" [level=4]
+                        - generic: 2x
+                  - listitem:
+                    - generic:
+                      - heading "Communication Arts" [level=3]:
+                        - link "Communication Arts":
+                          - /url: https://www.commarts.com/webpicks/emotion-agency
+                      - generic: "[2]"
+                    - list:
+                      - listitem:
+                        - heading "Featured" [level=4]
+                        - generic: 2x
+                  - listitem:
+                    - generic:
+                      - heading "Codrops" [level=3]:
+                        - link "Codrops":
+                          - /url: https://tympanus.net/codrops/2024/09/06/inspirational-websites-roundup-65/
+                      - generic: "[1]"
+                    - list:
+                      - listitem:
+                        - heading "Featured" [level=4]
+                        - generic: 1x
+                - link "More about us":
+                  - /url: /about
+                  - generic:
+                    - generic: More about us
+                    - generic [aria-hidden]: More about us
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Stay in touch
+                      - heading "Let’s build something meaningful" [level=2]:
+                        - text: Let’s build
+                        - generic: something
+                        - text: meaningful
+                      - link "Start project":
+                        - /url: /contact
+                        - generic:
+                          - generic: Start project
+                          - generic [aria-hidden]: Start project
+                    - generic:
+                      - paragraph: Have an idea, a product, or a vision? We’d love to help you bring it to life
+                      - generic:
+                        - generic:
+                          - generic: Social
+                          - list:
+                            - listitem:
+                              - generic: "[01]"
+                              - link "Awwwards":
+                                - /url: https://www.awwwards.com/emotion
+                            - listitem:
+                              - generic: "[02]"
+                              - link "Twitter / X":
+                                - /url: https://x.com/emotion__agency
+                            - listitem:
+                              - generic: "[03]"
+                              - link "Instagram":
+                                - /url: https://www.instagram.com/emotion.agency
+                            - listitem:
+                              - generic: "[04]"
+                              - link "Linkedin":
+                                - /url: https://www.linkedin.com/company/emotionagency
+                            - listitem:
+                              - generic: "[05]"
+                              - link "Behance":
+                                - /url: https://www.behance.net/emotion-agency
+                        - generic:
+                          - generic: Pages
+                          - list:
+                            - listitem:
+                              - generic: "[01]"
+                              - link "Home":
+                                - /url: /
+                            - listitem:
+                              - generic: "[02]"
+                              - link "About":
+                                - /url: /about
+                            - listitem:
+                              - generic: "[03]"
+                              - link "Projects":
+                                - /url: /projects
+                            - listitem:
+                              - generic: "[04]"
+                              - link "Contact":
+                                - /url: /contact
+                        - generic:
+                          - generic: Location
+                          - list:
+                            - listitem:
+                              - generic: 50000. Born and working in Kryvyi Rih, Ukraine
+                        - generic:
+                          - generic: E-mail
+                          - list:
+                            - listitem:
+                              - generic:
+                                - generic:
+                                  - link "hello@emotion-agency.com":
+                                    - /url: mailto:hello@emotion-agency.com
+                                  - generic [aria-hidden]: Copied
+                                - button "Copy email address"
+                                - status
+                  - generic:
+                    - generic:
+                      - separator
+                      - generic:
+                        - generic: © 2018-2026. All rights reserved
+                        - generic: Keep scrolling
+                        - list:
+                          - listitem:
+                            - link "Terms of Service":
+                              - /url: /legal/terms-of-service
+                          - listitem:
+                            - link "Privacy Policy":
+                              - /url: /legal/privacy-policy
+                - generic:
+                  - generic:
+                    - paragraph:
+                      - generic: (Just
+                      - generic: Continue
+                      - generic: to
+                      - generic: reveal)
+                    - link "[ next page ]":
+                      - /url: /about
+                      - paragraph: "[ next page ]"
+                    - paragraph: About
+        - button "AI assistant" [ref=e55] [cursor=pointer]
+      - region "Notifications":
+        - list

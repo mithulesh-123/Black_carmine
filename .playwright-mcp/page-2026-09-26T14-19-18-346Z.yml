@@ -1,0 +1,537 @@
+- generic [active] [ref=f5e1]:
+  - generic [aria-hidden]:
+    - generic: View
+  - link "Skip to content" [ref=f5e20] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f5e21]:
+    - generic [ref=f5e23]:
+      - link "BLACKCARMINE — home" [ref=f5e24] [cursor=pointer]:
+        - /url: "#top"
+        - img [aria-hidden] [ref=f5e25]:
+          - generic [ref=f5e27]: BC
+        - generic [ref=f5e28]: BlackCarmine
+      - navigation "Primary" [ref=f5e1134]:
+        - link "Services" [ref=f5e1135] [cursor=pointer]:
+          - /url: "#services"
+        - link "Work" [ref=f5e1136] [cursor=pointer]:
+          - /url: "#work"
+        - link "Process" [ref=f5e1137] [cursor=pointer]:
+          - /url: "#process"
+        - link "Studio" [ref=f5e1138] [cursor=pointer]:
+          - /url: "#studio"
+        - link "Contact" [ref=f5e1139] [cursor=pointer]:
+          - /url: "#contact"
+      - link "Start a project" [ref=f5e1140] [cursor=pointer]:
+        - /url: "#contact"
+  - main [ref=f5e35]:
+    - generic [ref=f5e36]:
+      - generic [aria-hidden]: BC
+      - generic [ref=f5e38]:
+        - paragraph [ref=f5e41]:
+          - generic [aria-hidden] [ref=f5e1143]: Full-service
+          - generic [aria-hidden] [ref=f5e1145]: digital
+          - generic [aria-hidden] [ref=f5e1147]: agency
+        - heading [level=1] [ref=f5e42]:
+          - generic "Digital products" [ref=f5e1148]:
+            - generic [aria-hidden] [ref=f5e1150]: Digital
+            - generic [aria-hidden] [ref=f5e1152]: products
+          - generic "engineered to" [ref=f5e1153]:
+            - generic [aria-hidden] [ref=f5e1155]: engineered
+            - generic [aria-hidden] [ref=f5e1157]: to
+          - generic "be felt." [ref=f5e1158]:
+            - generic [aria-hidden] [ref=f5e1160]: be felt.
+        - generic [ref=f5e46]:
+          - paragraph [ref=f5e47]: BLACKCARMINE designs and engineers web platforms, mobile apps, SaaS, brand systems and AI-driven products — from first sketch to production traffic.
+          - generic [ref=f5e48]:
+            - link "Start a project" [ref=f5e50] [cursor=pointer]:
+              - /url: "#contact"
+            - link "View selected work" [ref=f5e55] [cursor=pointer]:
+              - /url: "#work"
+        - generic [ref=f5e57]:
+          - generic [ref=f5e58]:
+            - generic [ref=f5e59]: "09"
+            - generic [ref=f5e1161]: Capabilities
+          - generic [ref=f5e60]:
+            - generic [ref=f5e61]: "06"
+            - generic [ref=f5e1162]: Selected works
+          - generic [ref=f5e62]:
+            - generic [ref=f5e63]: "18"
+            - generic [ref=f5e1163]: Tools in stack
+      - generic: Scroll
+    - generic [ref=f5e65]:
+      - generic [ref=f5e66]: Web Development
+      - generic [ref=f5e69]: Mobile Apps
+      - generic [ref=f5e72]: SaaS Platforms
+      - generic [ref=f5e75]: UI / UX Design
+      - generic [ref=f5e78]: Brand Systems
+      - generic [ref=f5e81]: E-commerce
+      - generic [ref=f5e84]: AI Solutions
+      - generic [ref=f5e87]: Automation
+      - generic [ref=f5e90]: Digital Products
+      - generic [ref=f5e93]: Design Systems
+      - generic [ref=f5e96]: Motion & Interaction
+      - generic [ref=f5e99]: Headless CMS
+      - generic [ref=f5e102]: Web Development
+      - generic [ref=f5e105]: Mobile Apps
+      - generic [ref=f5e108]: SaaS Platforms
+      - generic [ref=f5e111]: UI / UX Design
+      - generic [ref=f5e114]: Brand Systems
+      - generic [ref=f5e117]: E-commerce
+      - generic [ref=f5e120]: AI Solutions
+      - generic [ref=f5e123]: Automation
+      - generic [ref=f5e126]: Digital Products
+      - generic [ref=f5e129]: Design Systems
+      - generic [ref=f5e132]: Motion & Interaction
+      - generic [ref=f5e135]: Headless CMS
+    - generic [ref=f5e139]:
+      - generic [ref=f5e140]:
+        - generic [ref=f5e141]:
+          - generic [ref=f5e142]: Capabilities
+          - heading "Everything needed to ship" [level=2] [ref=f5e145]:
+            - generic [aria-hidden] [ref=f5e1165]: Everything
+            - generic [aria-hidden] [ref=f5e1167]: needed
+            - generic [aria-hidden] [ref=f5e1169]: to ship
+        - paragraph [ref=f5e146]: Nine disciplines, one team. Each engagement is scoped as a vertical slice so you see working software early instead of a long plan.
+      - generic [ref=f5e1170]:
+        - generic [ref=f5e1171]:
+          - button "01 Web Development" [pressed] [ref=f5e1172]:
+            - generic [ref=f5e1173]: "01"
+            - generic [ref=f5e1174]: Web Development
+          - button "02 Mobile App Development" [ref=f5e1178]:
+            - generic [ref=f5e1179]: "02"
+            - generic [ref=f5e1180]: Mobile App Development
+          - button "03 SaaS Platforms" [ref=f5e1184]:
+            - generic [ref=f5e1185]: "03"
+            - generic [ref=f5e1186]: SaaS Platforms
+          - button "04 UI / UX Design" [ref=f5e1190]:
+            - generic [ref=f5e1191]: "04"
+            - generic [ref=f5e1192]: UI / UX Design
+          - button "05 Branding & Identity" [ref=f5e1196]:
+            - generic [ref=f5e1197]: "05"
+            - generic [ref=f5e1198]: Branding & Identity
+          - button "06 E-commerce" [ref=f5e1202]:
+            - generic [ref=f5e1203]: "06"
+            - generic [ref=f5e1204]: E-commerce
+          - button "07 AI Solutions" [ref=f5e1208]:
+            - generic [ref=f5e1209]: "07"
+            - generic [ref=f5e1210]: AI Solutions
+          - button "08 Automation" [ref=f5e1214]:
+            - generic [ref=f5e1215]: "08"
+            - generic [ref=f5e1216]: Automation
+          - button "09 Custom Digital Products" [ref=f5e1220]:
+            - generic [ref=f5e1221]: "09"
+            - generic [ref=f5e1222]: Custom Digital Products
+        - generic [ref=f5e1227]:
+          - generic [ref=f5e1228]: "01"
+          - generic [ref=f5e1251]:
+            - generic [ref=f5e1252]:
+              - heading "Web Development" [level=3] [ref=f5e1253]
+              - paragraph [ref=f5e1254]: Performance as a design material
+              - paragraph [ref=f5e1255]: We build fast, resilient web platforms — from editorial marketing sites to complex headless commerce and multi-tenant SaaS front-ends. Accessibility, Core Web Vitals and type-safety are part of the craft, not an afterthought.
+            - list [ref=f5e1256]:
+              - listitem [ref=f5e1257]: Next.js / React
+              - listitem [ref=f5e1258]: Headless architecture
+              - listitem [ref=f5e1259]: Edge & streaming SSR
+              - listitem [ref=f5e1260]: Design-system engineering
+              - listitem [ref=f5e1261]: Performance budgets
+    - generic [ref=f5e593]:
+      - generic [ref=f5e594]:
+        - generic [ref=f5e595]:
+          - generic [ref=f5e596]:
+            - generic [ref=f5e597]: Selected work
+            - heading "Built, not pitched" [level=2] [ref=f5e600]:
+              - generic [aria-hidden] [ref=f5e1263]: Built, not
+              - generic [aria-hidden] [ref=f5e1265]: pitched
+          - paragraph [ref=f5e601]: Internal R&D, product experiments and partner collaborations. Each one shipped to production constraints — and lived there.
+        - generic [ref=f5e1266]:
+          - link "01 Nocturne Immersive Brand Platform Art direction WebGL 2026" [ref=f5e1268] [cursor=pointer]:
+            - /url: /work/nocturne
+            - generic [ref=f5e1269]: "01"
+            - generic [ref=f5e1270]:
+              - generic [ref=f5e1271]: Nocturne
+              - generic [ref=f5e1272]: Immersive Brand Platform
+            - generic [ref=f5e1273]:
+              - generic [ref=f5e1274]:
+                - generic [ref=f5e1275]: Art direction
+                - generic [ref=f5e1276]: WebGL
+              - generic [ref=f5e1277]: "2026"
+          - link "02 Carmine Commerce Headless Storefront Framework Architecture Front-end 2025" [ref=f5e1281] [cursor=pointer]:
+            - /url: /work/carmine-commerce
+            - generic [ref=f5e1282]: "02"
+            - generic [ref=f5e1283]:
+              - generic [ref=f5e1284]: Carmine Commerce
+              - generic [ref=f5e1285]: Headless Storefront Framework
+            - generic [ref=f5e1286]:
+              - generic [ref=f5e1287]:
+                - generic [ref=f5e1288]: Architecture
+                - generic [ref=f5e1289]: Front-end
+              - generic [ref=f5e1290]: "2025"
+          - link "03 Atlas Studio Design-System Engine Design system Tooling 2025" [ref=f5e1294] [cursor=pointer]:
+            - /url: /work/atlas-studio
+            - generic [ref=f5e1295]: "03"
+            - generic [ref=f5e1296]:
+              - generic [ref=f5e1297]: Atlas Studio
+              - generic [ref=f5e1298]: Design-System Engine
+            - generic [ref=f5e1299]:
+              - generic [ref=f5e1300]:
+                - generic [ref=f5e1301]: Design system
+                - generic [ref=f5e1302]: Tooling
+              - generic [ref=f5e1303]: "2025"
+          - link "04 Pulse OS Operator Dashboard & Automation Product design Realtime front-end 2024" [ref=f5e1307] [cursor=pointer]:
+            - /url: /work/pulse-os
+            - generic [ref=f5e1308]: "04"
+            - generic [ref=f5e1309]:
+              - generic [ref=f5e1310]: Pulse OS
+              - generic [ref=f5e1311]: Operator Dashboard & Automation
+            - generic [ref=f5e1312]:
+              - generic [ref=f5e1313]:
+                - generic [ref=f5e1314]: Product design
+                - generic [ref=f5e1315]: Realtime front-end
+              - generic [ref=f5e1316]: "2024"
+          - link "05 Vessel AI Knowledge Interface AI engineering Product design 2026" [ref=f5e1320] [cursor=pointer]:
+            - /url: /work/vessel
+            - generic [ref=f5e1321]: "05"
+            - generic [ref=f5e1322]:
+              - generic [ref=f5e1323]: Vessel
+              - generic [ref=f5e1324]: AI Knowledge Interface
+            - generic [ref=f5e1325]:
+              - generic [ref=f5e1326]:
+                - generic [ref=f5e1327]: AI engineering
+                - generic [ref=f5e1328]: Product design
+              - generic [ref=f5e1329]: "2026"
+          - link "06 Meridian Cross-Platform Mobile Product Product design Mobile engineering 2024" [ref=f5e1333] [cursor=pointer]:
+            - /url: /work/meridian
+            - generic [ref=f5e1334]: "06"
+            - generic [ref=f5e1335]:
+              - generic [ref=f5e1336]: Meridian
+              - generic [ref=f5e1337]: Cross-Platform Mobile Product
+            - generic [ref=f5e1338]:
+              - generic [ref=f5e1339]:
+                - generic [ref=f5e1340]: Product design
+                - generic [ref=f5e1341]: Mobile engineering
+              - generic [ref=f5e1342]: "2024"
+        - link "All projects" [ref=f5e810] [cursor=pointer]:
+          - /url: /work
+      - generic [aria-hidden]:
+        - generic:
+          - generic:
+            - generic:
+              - generic: Nocturne
+              - generic: "2026"
+    - generic [ref=f5e813]:
+      - generic [ref=f5e814]:
+        - generic [ref=f5e815]: Process
+        - heading "How the work gets made" [level=2] [ref=f5e818]:
+          - generic [aria-hidden] [ref=f5e1346]: How the
+          - generic [aria-hidden] [ref=f5e1348]: work
+          - generic [aria-hidden] [ref=f5e1350]: gets made
+      - generic [ref=f5e819]:
+        - generic [ref=f5e1353]:
+          - text: Delivery model
+          - paragraph [ref=f5e1356]: Five movements, repeated in weekly cycles. You see working software from week two — the plan bends to what we learn from it, never the reverse.
+        - generic [ref=f5e820]:
+          - generic [ref=f5e821]:
+            - generic [ref=f5e822]: "01"
+            - generic [ref=f5e823]:
+              - heading "Immerse" [level=3] [ref=f5e824]
+              - paragraph [ref=f5e825]: We map the problem before the solution. Stakeholder interviews, technical audit, competitive landscape and a written point of view on where the real leverage sits.
+              - list [ref=f5e826]:
+                - listitem [ref=f5e827]: Discovery report
+                - listitem [ref=f5e828]: Technical audit
+                - listitem [ref=f5e829]: Scope and hypotheses
+          - generic [ref=f5e830]:
+            - generic [ref=f5e831]: "02"
+            - generic [ref=f5e832]:
+              - heading "Architect" [level=3] [ref=f5e833]
+              - paragraph [ref=f5e834]: Information architecture, data models and a spine of key screens. We choose the architecture that survives your real constraints — traffic, team, budget and legacy systems.
+              - list [ref=f5e835]:
+                - listitem [ref=f5e836]: IA & flows
+                - listitem [ref=f5e837]: Data model
+                - listitem [ref=f5e838]: Technical spike
+          - generic [ref=f5e839]:
+            - generic [ref=f5e840]: "03"
+            - generic [ref=f5e841]:
+              - heading "Craft" [level=3] [ref=f5e842]
+              - paragraph [ref=f5e843]: Interface design and production engineering happen in the same room. Components are built to the design system, with motion and accessibility specified as acceptance criteria.
+              - list [ref=f5e844]:
+                - listitem [ref=f5e845]: Design system
+                - listitem [ref=f5e846]: Component library
+                - listitem [ref=f5e847]: Motion specs
+          - generic [ref=f5e848]:
+            - generic [ref=f5e849]: "04"
+            - generic [ref=f5e850]:
+              - heading "Build" [level=3] [ref=f5e851]
+              - paragraph [ref=f5e852]: Vertical slices in weekly increments, deployed to a preview environment you control. Honest progress you can click, not a Gantt chart to trust.
+              - list [ref=f5e853]:
+                - listitem [ref=f5e854]: Weekly slices
+                - listitem [ref=f5e855]: Preview deploys
+                - listitem [ref=f5e856]: Quality gates
+          - generic [ref=f5e857]:
+            - generic [ref=f5e858]: "05"
+            - generic [ref=f5e859]:
+              - heading "Launch & Tune" [level=3] [ref=f5e860]
+              - paragraph [ref=f5e861]: Release strategy, monitoring and a tuning window after launch. We instrument what matters, hand over documentation your team will actually read, and stay on call while it settles.
+              - list [ref=f5e862]:
+                - listitem [ref=f5e863]: Release plan
+                - listitem [ref=f5e864]: Observability
+                - listitem [ref=f5e865]: Handover & docs
+    - generic [ref=f5e866]:
+      - generic [ref=f5e867]:
+        - generic [ref=f5e868]:
+          - generic [ref=f5e869]:
+            - generic [ref=f5e870]: Technology
+            - heading "The tools we reach for" [level=2] [ref=f5e873]:
+              - generic [aria-hidden] [ref=f5e1358]: The
+              - generic [aria-hidden] [ref=f5e1360]: tools we
+              - generic [aria-hidden] [ref=f5e1362]: reach for
+          - paragraph [ref=f5e874]: Boring technology where it matters, sharp tools where it counts. We optimise for your team's ability to maintain what we leave behind.
+        - generic [ref=f5e875]:
+          - generic [ref=f5e877]:
+            - generic [ref=f5e878]: Web
+            - generic [ref=f5e879]: Next.js
+          - generic [ref=f5e881]:
+            - generic [ref=f5e882]: Web
+            - generic [ref=f5e883]: React
+          - generic [ref=f5e885]:
+            - generic [ref=f5e886]: Web
+            - generic [ref=f5e887]: TypeScript
+          - generic [ref=f5e889]:
+            - generic [ref=f5e890]: Web
+            - generic [ref=f5e891]: Tailwind CSS
+          - generic [ref=f5e893]:
+            - generic [ref=f5e894]: Motion
+            - generic [ref=f5e895]: GSAP
+          - generic [ref=f5e897]:
+            - generic [ref=f5e898]: Motion
+            - generic [ref=f5e899]: Three.js / WebGL
+          - generic [ref=f5e901]:
+            - generic [ref=f5e902]: Mobile
+            - generic [ref=f5e903]: React Native
+          - generic [ref=f5e905]:
+            - generic [ref=f5e906]: Mobile
+            - generic [ref=f5e907]: Expo
+          - generic [ref=f5e909]:
+            - generic [ref=f5e910]: Platform
+            - generic [ref=f5e911]: Node.js
+          - generic [ref=f5e913]:
+            - generic [ref=f5e914]: Platform
+            - generic [ref=f5e915]: PostgreSQL
+          - generic [ref=f5e917]:
+            - generic [ref=f5e918]: AI
+            - generic [ref=f5e919]: pgvector
+          - generic [ref=f5e921]:
+            - generic [ref=f5e922]: AI
+            - generic [ref=f5e923]: LangChain
+          - generic [ref=f5e925]:
+            - generic [ref=f5e926]: Platform
+            - generic [ref=f5e927]: GraphQL
+          - generic [ref=f5e929]:
+            - generic [ref=f5e930]: Platform
+            - generic [ref=f5e931]: Turborepo
+          - generic [ref=f5e933]:
+            - generic [ref=f5e934]: Design
+            - generic [ref=f5e935]: Figma
+          - generic [ref=f5e937]:
+            - generic [ref=f5e938]: Design
+            - generic [ref=f5e939]: Storybook
+          - generic [ref=f5e941]:
+            - generic [ref=f5e942]: Infra
+            - generic [ref=f5e943]: Vercel
+          - generic [ref=f5e945]:
+            - generic [ref=f5e946]: Infra
+            - generic [ref=f5e947]: Docker
+      - generic [ref=f5e950]:
+        - generic [ref=f5e951]: Accessibility first
+        - generic [ref=f5e954]: Type-safe by default
+        - generic [ref=f5e957]: Edge-rendered
+        - generic [ref=f5e960]: Core Web Vitals as a budget
+        - generic [ref=f5e963]: Zero-downtime deploys
+        - generic [ref=f5e966]: Observable systems
+        - generic [ref=f5e969]: Accessibility first
+        - generic [ref=f5e972]: Type-safe by default
+        - generic [ref=f5e975]: Edge-rendered
+        - generic [ref=f5e978]: Core Web Vitals as a budget
+        - generic [ref=f5e981]: Zero-downtime deploys
+        - generic [ref=f5e984]: Observable systems
+    - generic [ref=f5e988]:
+      - generic [ref=f5e989]:
+        - generic [ref=f5e990]:
+          - generic [ref=f5e991]:
+            - generic [ref=f5e992]: Studio
+            - heading "Small on purpose" [level=2] [ref=f5e995]:
+              - generic [aria-hidden] [ref=f5e1364]: Small on
+              - generic [aria-hidden] [ref=f5e1366]: purpose
+          - paragraph [ref=f5e996]: BLACKCARMINE is a deliberately compact studio of senior designers and engineers. We stay small so the people you brief are the people who build — and so every line of the work is held to one standard instead of diluted across a hierarchy.
+          - generic [ref=f5e997]:
+            - generic [ref=f5e998]:
+              - term [ref=f5e999]: Model
+              - definition [ref=f5e1000]: Full-service, senior-only
+            - generic [ref=f5e1001]:
+              - term [ref=f5e1002]: Engagements
+              - definition [ref=f5e1003]: Retainer & project
+            - generic [ref=f5e1004]:
+              - term [ref=f5e1005]: Delivery
+              - definition [ref=f5e1006]: Weekly vertical slices
+            - generic [ref=f5e1007]:
+              - term [ref=f5e1008]: Working hours
+              - definition [ref=f5e1009]: CET / flexible overlap
+        - generic [ref=f5e1010]:
+          - generic [ref=f5e1012]:
+            - generic [ref=f5e1013]: "01"
+            - generic [ref=f5e1014]:
+              - heading "Senior hands, no relay" [level=3] [ref=f5e1015]
+              - paragraph [ref=f5e1016]: The people in the room are the people who write the code and draw the pixels. No account layer, no translation loss.
+          - generic [ref=f5e1018]:
+            - generic [ref=f5e1019]: "02"
+            - generic [ref=f5e1020]:
+              - heading "Working software weekly" [level=3] [ref=f5e1021]
+              - paragraph [ref=f5e1022]: Vertical slices deployed to a preview environment you control. Progress you can click, not a Gantt chart to trust.
+          - generic [ref=f5e1024]:
+            - generic [ref=f5e1025]: "03"
+            - generic [ref=f5e1026]:
+              - heading "Honest scopes" [level=3] [ref=f5e1027]
+              - paragraph [ref=f5e1028]: We tell you what we would cut before we build it. Estimates come with the reasoning attached, so you can re-plan with us.
+          - generic [ref=f5e1030]:
+            - generic [ref=f5e1031]: "04"
+            - generic [ref=f5e1032]:
+              - heading "Performance is design" [level=3] [ref=f5e1033]
+              - paragraph [ref=f5e1034]: Milliseconds are a material like colour and type. We budget them, measure them, and ship against the budget.
+      - paragraph [ref=f5e1036]:
+        - generic [aria-hidden] [ref=f5e1368]: We
+        - generic [aria-hidden] [ref=f5e1370]: take
+        - generic [aria-hidden] [ref=f5e1372]: the
+        - generic [aria-hidden] [ref=f5e1374]: projects
+        - generic [aria-hidden] [ref=f5e1376]: where
+        - generic [aria-hidden] [ref=f5e1378]: craft
+        - generic [aria-hidden] [ref=f5e1380]: and
+        - generic [aria-hidden] [ref=f5e1382]: engineering
+        - generic [aria-hidden] [ref=f5e1384]: have
+        - generic [aria-hidden] [ref=f5e1386]: to
+        - generic [aria-hidden] [ref=f5e1388]: move
+        - generic [aria-hidden] [ref=f5e1390]: together
+        - generic [aria-hidden] [ref=f5e1392]: —
+        - generic [aria-hidden] [ref=f5e1394]: and
+        - generic [aria-hidden] [ref=f5e1396]: we
+        - generic [aria-hidden] [ref=f5e1398]: hand
+        - generic [aria-hidden] [ref=f5e1400]: over
+        - generic [aria-hidden] [ref=f5e1402]: work
+        - generic [aria-hidden] [ref=f5e1404]: your
+        - generic [aria-hidden] [ref=f5e1406]: team
+        - generic [aria-hidden] [ref=f5e1408]: can
+        - generic [aria-hidden] [ref=f5e1410]: actually
+        - generic [aria-hidden] [ref=f5e1412]: carry
+        - generic [aria-hidden] [ref=f5e1414]: forward.
+    - generic [ref=f5e1039]:
+      - generic [ref=f5e1040]:
+        - generic [ref=f5e1041]: Contact
+        - heading [level=2] [ref=f5e1044]:
+          - generic "Let's build" [ref=f5e1415]:
+            - generic [aria-hidden] [ref=f5e1417]: Let's build
+          - generic "something" [ref=f5e1418]:
+            - generic [aria-hidden] [ref=f5e1420]: something
+          - generic "unforgettable." [ref=f5e1421]:
+            - generic [aria-hidden] [ref=f5e1423]: unforgettable.
+        - paragraph [ref=f5e1048]: Tell us what you are building and what success looks like. We reply within two working days with a written point of view — including where we would push back.
+        - generic [ref=f5e1049]:
+          - link "hello@blackcarmine.studio" [ref=f5e1051] [cursor=pointer]:
+            - /url: mailto:hello@blackcarmine.studio
+          - generic [ref=f5e1052]:
+            - link "X / Twitter" [ref=f5e1053] [cursor=pointer]:
+              - /url: https://x.com/
+            - link "Instagram" [ref=f5e1054] [cursor=pointer]:
+              - /url: https://instagram.com/
+            - link "LinkedIn" [ref=f5e1055] [cursor=pointer]:
+              - /url: https://linkedin.com/
+            - link "GitHub" [ref=f5e1056] [cursor=pointer]:
+              - /url: https://github.com/
+            - link "Dribbble" [ref=f5e1057] [cursor=pointer]:
+              - /url: https://dribbble.com/
+      - generic [ref=f5e1059]:
+        - generic [ref=f5e1060]:
+          - generic [ref=f5e1061]:
+            - generic [ref=f5e1062]: Your name
+            - textbox "Your name" [ref=f5e1064]:
+              - /placeholder: Ada Vega
+          - generic [ref=f5e1065]:
+            - generic [ref=f5e1066]: Email
+            - textbox "Email" [ref=f5e1068]:
+              - /placeholder: ada@company.com
+        - generic [ref=f5e1069]:
+          - generic [ref=f5e1070]:
+            - generic [ref=f5e1071]: Project type
+            - combobox "Project type" [ref=f5e1073] [cursor=pointer]:
+              - option "Select a discipline" [selected]
+              - option "Web development"
+              - option "Mobile app"
+              - option "SaaS platform"
+              - option "UI / UX design"
+              - option "Branding"
+              - option "E-commerce"
+              - option "AI solutions"
+              - option "Automation"
+              - option "Something else"
+          - generic [ref=f5e1074]:
+            - generic [ref=f5e1075]: Budget range
+            - combobox "Budget range" [ref=f5e1077] [cursor=pointer]:
+              - option "Select a range" [selected]
+              - option "< 25k"
+              - option "25 – 60k"
+              - option "60 – 120k"
+              - option "120k+"
+              - option "Not sure yet"
+        - generic [ref=f5e1078]:
+          - generic [ref=f5e1079]: The brief
+          - textbox "The brief" [ref=f5e1081]:
+            - /placeholder: What are you building, and what does success look like?
+        - button "Send brief" [ref=f5e1082]
+  - contentinfo [ref=f5e1086]:
+    - generic [ref=f5e1087]:
+      - generic [ref=f5e1088]:
+        - generic [ref=f5e1089]:
+          - generic [ref=f5e1090]: Navigate
+          - navigation "Footer" [ref=f5e1091]:
+            - link "Services" [ref=f5e1092] [cursor=pointer]:
+              - /url: "#services"
+            - link "Work" [ref=f5e1093] [cursor=pointer]:
+              - /url: "#work"
+            - link "Process" [ref=f5e1094] [cursor=pointer]:
+              - /url: "#process"
+            - link "Studio" [ref=f5e1095] [cursor=pointer]:
+              - /url: "#studio"
+            - link "Contact" [ref=f5e1096] [cursor=pointer]:
+              - /url: "#contact"
+        - generic [ref=f5e1097]:
+          - generic [ref=f5e1098]: Elsewhere
+          - generic [ref=f5e1099]:
+            - link "X / Twitter" [ref=f5e1100] [cursor=pointer]:
+              - /url: https://x.com/
+            - link "Instagram" [ref=f5e1101] [cursor=pointer]:
+              - /url: https://instagram.com/
+            - link "LinkedIn" [ref=f5e1102] [cursor=pointer]:
+              - /url: https://linkedin.com/
+            - link "GitHub" [ref=f5e1103] [cursor=pointer]:
+              - /url: https://github.com/
+            - link "Dribbble" [ref=f5e1104] [cursor=pointer]:
+              - /url: https://dribbble.com/
+        - generic [ref=f5e1105]:
+          - generic [ref=f5e1106]: Studio
+          - paragraph [ref=f5e1107]: Operating remotely —working in CET, overlapping globally.
+          - link "hello@blackcarmine.studio" [ref=f5e1108] [cursor=pointer]:
+            - /url: mailto:hello@blackcarmine.studio
+          - generic [ref=f5e1109]:
+            - generic [ref=f5e1111]: 16:19:17
+            - generic [ref=f5e1112]: CET
+        - generic [ref=f5e1113]:
+          - generic [ref=f5e1114]: Back to the top
+          - link "Top" [ref=f5e1115] [cursor=pointer]:
+            - /url: "#top"
+      - generic [aria-hidden]: BlackCarmine
+      - generic [ref=f5e1119]:
+        - generic [ref=f5e1120]: © 2026 BlackCarmine — all rights reserved
+        - generic [ref=f5e1121]:
+          - link "Terms" [ref=f5e1122] [cursor=pointer]:
+            - /url: "#top"
+          - link "Privacy" [ref=f5e1123] [cursor=pointer]:
+            - /url: "#top"
+  - button "Open Next.js Dev Tools" [ref=f5e1129] [cursor=pointer]
+  - alert [ref=f5e1424]

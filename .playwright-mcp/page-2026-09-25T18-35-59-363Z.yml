@@ -1,0 +1,117 @@
+- generic [ref=f1e1]:
+  - banner [ref=f1e20]:
+    - generic [ref=f1e22]:
+      - link "BLACKCARMINE — home" [ref=f1e23] [cursor=pointer]:
+        - /url: "#top"
+        - img [aria-hidden] [ref=f1e24]:
+          - generic [ref=f1e26]: BC
+        - generic [ref=f1e27]: BlackCarmine
+      - navigation "Primary" [ref=f1e28]:
+        - link "Services" [ref=f1e29] [cursor=pointer]:
+          - /url: "#services"
+        - link "Work" [ref=f1e30] [cursor=pointer]:
+          - /url: "#work"
+        - link "Process" [ref=f1e31] [cursor=pointer]:
+          - /url: "#process"
+        - link "Studio" [ref=f1e32] [cursor=pointer]:
+          - /url: "#studio"
+        - link "Contact" [ref=f1e33] [cursor=pointer]:
+          - /url: "#contact"
+      - link "Start a project" [ref=f1e35] [cursor=pointer]:
+        - /url: "#contact"
+  - main [ref=f1e792]:
+    - generic [ref=f1e794]:
+      - link "All projects" [ref=f1e795] [cursor=pointer]:
+        - /url: /work
+      - generic [ref=f1e799]:
+        - generic [ref=f1e800]:
+          - generic [ref=f1e801]: "01"
+          - generic [ref=f1e802]: Internal R&D · 2026
+        - heading "Nocturne" [level=1] [ref=f1e803]:
+          - generic [aria-hidden] [ref=f1e805]: Nocturne
+        - paragraph [ref=f1e806]: A cinematic brand platform prototype exploring how far a page can feel like a film without losing sub-second navigation.
+      - generic [ref=f1e849]:
+        - generic [ref=f1e850]:
+          - generic [ref=f1e851]: Category
+          - generic [ref=f1e852]: Immersive Brand Platform
+        - generic [ref=f1e853]:
+          - generic [ref=f1e854]: Nature
+          - generic [ref=f1e855]: Internal R&D
+        - generic [ref=f1e856]:
+          - generic [ref=f1e857]: Scope
+          - generic [ref=f1e858]: Art direction · WebGL · Front-end · Motion system
+        - generic [ref=f1e859]:
+          - generic [ref=f1e860]: Stack
+          - generic [ref=f1e861]: Next.js · TypeScript · GSAP · Three.js
+    - generic [ref=f1e864]:
+      - generic [ref=f1e865]:
+        - generic [ref=f1e866]: The story
+        - 'heading "Most brand sites make you wait. Nocturne asked the opposite question: can a page feel cinematic and still be gone before you notice it loading?" [level=2] [ref=f1e869]'
+      - generic [ref=f1e870]:
+        - paragraph [ref=f1e882]: We built the entire experience around a single continuous camera move, then broke it into chapters that stream in as the scroll progresses. Everything above the fold renders in one frame group; the rest defers until the scroll position demands it.
+        - paragraph [ref=f1e884]: The type system is the interface. Headlines compress and stretch with scroll velocity, and the soundscape reacts to chapter changes. Motion is the navigation — there are no buttons until you stop moving.
+        - paragraph [ref=f1e886]: The hardest part was restraint. Every shader we added pushed frame time up, so we budgeted milliseconds instead of features and cut everything that did not serve the cut.
+        - generic [ref=f1e888]:
+          - text: How we approached it
+          - list [ref=f1e889]:
+            - listitem [ref=f1e890]: Milliseconds as the design budget
+            - listitem [ref=f1e892]: Streaming chapters instead of one long load
+            - listitem [ref=f1e894]: Scroll-velocity-driven type scaling
+    - generic [ref=f1e873]:
+      - generic [ref=f1e874]:
+        - text: Next project
+        - link "Carmine Commerce" [ref=f1e875] [cursor=pointer]:
+          - /url: /work/carmine-commerce
+      - link "Start a project" [active] [ref=f1e879] [cursor=pointer]:
+        - /url: "#contact"
+  - contentinfo [ref=f1e614]:
+    - generic [ref=f1e615]:
+      - generic [ref=f1e616]:
+        - generic [ref=f1e617]:
+          - generic [ref=f1e618]: Navigate
+          - navigation "Footer" [ref=f1e619]:
+            - link "Services" [ref=f1e620] [cursor=pointer]:
+              - /url: "#services"
+            - link "Work" [ref=f1e621] [cursor=pointer]:
+              - /url: "#work"
+            - link "Process" [ref=f1e622] [cursor=pointer]:
+              - /url: "#process"
+            - link "Studio" [ref=f1e623] [cursor=pointer]:
+              - /url: "#studio"
+            - link "Contact" [ref=f1e624] [cursor=pointer]:
+              - /url: "#contact"
+        - generic [ref=f1e625]:
+          - generic [ref=f1e626]: Elsewhere
+          - generic [ref=f1e627]:
+            - link "X / Twitter" [ref=f1e628] [cursor=pointer]:
+              - /url: https://x.com/
+            - link "Instagram" [ref=f1e629] [cursor=pointer]:
+              - /url: https://instagram.com/
+            - link "LinkedIn" [ref=f1e630] [cursor=pointer]:
+              - /url: https://linkedin.com/
+            - link "GitHub" [ref=f1e631] [cursor=pointer]:
+              - /url: https://github.com/
+            - link "Dribbble" [ref=f1e632] [cursor=pointer]:
+              - /url: https://dribbble.com/
+        - generic [ref=f1e633]:
+          - generic [ref=f1e634]: Studio
+          - paragraph [ref=f1e635]: Operating remotely —working in CET, overlapping globally.
+          - link "hello@blackcarmine.studio" [ref=f1e636] [cursor=pointer]:
+            - /url: mailto:hello@blackcarmine.studio
+          - generic [ref=f1e637]:
+            - generic [ref=f1e639]: 20:35:59
+            - generic [ref=f1e640]: CET
+        - generic [ref=f1e641]:
+          - generic [ref=f1e642]: Back to the top
+          - link "Top" [ref=f1e643] [cursor=pointer]:
+            - /url: "#top"
+      - generic [aria-hidden]: BlackCarmine
+      - generic [ref=f1e647]:
+        - generic [ref=f1e648]: © 2026 BlackCarmine — all rights reserved
+        - generic [ref=f1e649]:
+          - link "Terms" [ref=f1e650] [cursor=pointer]:
+            - /url: "#top"
+          - link "Privacy" [ref=f1e651] [cursor=pointer]:
+            - /url: "#top"
+  - button "Open Next.js Dev Tools" [ref=f1e657] [cursor=pointer]
+  - alert [ref=f1e765]: Nocturne — Immersive Brand Platform — BLACKCARMINE

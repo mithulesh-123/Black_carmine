@@ -1,0 +1,26 @@
+[     431ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[     454ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  509686ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  509803ms] [LOG] [Fast Refresh] done in 30ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  510250ms] [LOG] [Fast Refresh] done in 30ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  516911ms] [ERROR] ./components/Services.tsx:41:49
+Error: Expected '</', got 'string literal'
+  39 | ...       >
+  40 | ...         <span className="shrink-0 font-mono text-xs tracking-[0.2em] transition-colors...
+> 41 | ...             active === i ? "text-carmine" : "text-muted-2"
+     |                                             ^^^^^
+  42 | ...           }`
+  43 | ...         >
+  44 | ...           {service.index}
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Services.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  517114ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  587199ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  587316ms] [LOG] [Fast Refresh] done in 16ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  587594ms] [LOG] [Fast Refresh] done in 16ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  626681ms] [LOG] [Fast Refresh] done in 16ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776

@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "skills": {
+    "building-accessible-interfaces": {
+      "source": "osmontero/opencode-skills",
+      "sourceType": "github",
+      "skillPath": "skills/building-accessible-interfaces/SKILL.md",
+      "computedHash": "f0a9e23166d820551677e7fe9cc7239e519a453ee193cd60c8dde32772bd5dde"
+    },
+    "designing-frontend-interfaces": {
+      "source": "osmontero/opencode-skills",
+      "sourceType": "github",
+      "skillPath": "skills/designing-frontend-interfaces/SKILL.md",
+      "computedHash": "03932bde6d8523fb0975848b839ad1c4b6d070ff7bb3ac6de60a5302de394bec"
+    },
+    "designing-user-experience": {
+      "source": "osmontero/opencode-skills",
+      "sourceType": "github",
+      "skillPath": "skills/designing-user-experience/SKILL.md",
+      "computedHash": "78db0278c8f026786c1c4f3152958b41ccdda10cc6fc7f61f214124796da56fc"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "computedHash": "106acf230014cbb43ca34e6410371321b56ca742f9ee0442e8ec05bf02eb0384"
+    },
+    "frontend-design-systems": {
+      "source": "composio-community/opencode-skills",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-design-systems/SKILL.md",
+      "computedHash": "4caf0cb1523fc7c4a7201a8c73540296574283fb4e1d017422211f67a3a40be2"
+    },
+    "gsap-scrolltrigger": {
+      "source": "greensock/gsap-skills",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-scrolltrigger/SKILL.md",
+      "computedHash": "358dd3381c74fc4be8db5a94e0cd008bf0fa7c1ccd45999671b0d61b9d9ffd9b"
+    },
+    "motion-design": {
+      "source": "lottiefiles/motion-design-skill",
+      "sourceType": "github",
+      "skillPath": "skills/motion-design/SKILL.md",
+      "computedHash": "4f16f46c81f25a2a25b7a4720b7ea001e65f384b31b5b7f4b455fef87fbc9016"
+    },
+    "performance-optimization": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/performance-optimization/SKILL.md",
+      "computedHash": "f0a8e3bdb9b7d199434c2a5dd7cbb7d3cf69d802029cde1ef5daa07bffa27efc"
+    },
+    "playwright-mcp-workflows": {
+      "source": "composio-community/opencode-skills",
+      "sourceType": "github",
+      "skillPath": "skills/playwright-mcp-workflows/SKILL.md",
+      "computedHash": "90717bf1c64bb4a8e5650a82f95cf9dce99dd0559657d020270114b537af4481"
+    },
+    "react-three-fiber": {
+      "source": "vercel-labs/json-render",
+      "sourceType": "github",
+      "skillPath": "skills/react-three-fiber/SKILL.md",
+      "computedHash": "33cfac131cbe9c89b14c4b49ca01e0b0a4a3f9c23bb6c81ac0514143703283e8"
+    },
+    "reviewing-interface-quality": {
+      "source": "osmontero/opencode-skills",
+      "sourceType": "github",
+      "skillPath": "skills/reviewing-interface-quality/SKILL.md",
+      "computedHash": "ec2148c26668b534e3537224901832036eed9d737a7467b53229306ac271b982"
+    },
+    "security-review": {
+      "source": "getsentry/skills",
+      "sourceType": "github",
+      "skillPath": "skills/security-review/SKILL.md",
+      "computedHash": "a5e559604b06fc7f68c15055135ea20eee93f1736d19408aeee4c0560502f2b0"
+    },
+    "seo-fundamentals": {
+      "source": "sickn33/agentic-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/seo-fundamentals/SKILL.md",
+      "computedHash": "03c2e8cf201ce314f579db56cabff7bee14a78b2e897d976a91f0bba8ed323df"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "computedHash": "6b526d013e28073246a36f99b529bc43745d30832ecfa8217b359c34f260ca6b"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/web-design-guidelines/SKILL.md",
+      "computedHash": "d8e7d3afe37dcc8a97b99ffb5afdb4d0919ae0092ea8b68f44eb201f035e33ac"
+    }
+  }
+}

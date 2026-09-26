@@ -1,0 +1,164 @@
+- generic [active] [ref=f1e1]:
+  - generic [aria-hidden] [ref=f1e2]:
+    - generic [ref=f1e7]:
+      - img [aria-hidden] [ref=f1e8]:
+        - generic [ref=f1e11]: BC
+      - generic [ref=f1e12]: Interfaces
+    - generic [ref=f1e14]:
+      - generic [ref=f1e15]: BLACKCARMINE
+      - generic [ref=f1e16]:
+        - generic [ref=f1e17]: "000"
+        - generic [ref=f1e18]: / 100
+  - link "Skip to content" [ref=f1e20] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f1e21]:
+    - generic [ref=f1e23]:
+      - link "BLACKCARMINE — home" [ref=f1e24] [cursor=pointer]:
+        - /url: "#top"
+        - img [aria-hidden] [ref=f1e25]:
+          - generic [ref=f1e27]: BC
+        - generic [ref=f1e28]: BlackCarmine
+      - navigation "Primary" [ref=f1e29]:
+        - link "Services" [ref=f1e30] [cursor=pointer]:
+          - /url: "#services"
+        - link "Work" [ref=f1e31] [cursor=pointer]:
+          - /url: "#work"
+        - link "Process" [ref=f1e32] [cursor=pointer]:
+          - /url: "#process"
+        - link "Studio" [ref=f1e33] [cursor=pointer]:
+          - /url: "#studio"
+        - link "Contact" [ref=f1e34] [cursor=pointer]:
+          - /url: "#contact"
+      - link "Start a project" [ref=f1e36] [cursor=pointer]:
+        - /url: "#contact"
+  - main [ref=f1e38]:
+    - generic [ref=f1e40]:
+      - generic [ref=f1e41]: Selected work
+      - heading "Built, not pitched" [level=1] [ref=f1e44]
+      - paragraph [ref=f1e45]: Internal R&D, product experiments and partner collaborations. Each one shipped to production constraints — and lived there.
+      - generic [ref=f1e46]:
+        - link "01 Nocturne Immersive Brand Platform · 2026 A cinematic brand platform prototype exploring how far a page can feel like a film without losing sub-second navigation. Next.js TypeScript GSAP Three.js" [ref=f1e47] [cursor=pointer]:
+          - /url: /work/nocturne
+          - generic [ref=f1e48]: "01"
+          - generic [ref=f1e91]:
+            - heading "Nocturne" [level=2] [ref=f1e92]
+            - paragraph [ref=f1e93]: Immersive Brand Platform · 2026
+            - paragraph [ref=f1e94]: A cinematic brand platform prototype exploring how far a page can feel like a film without losing sub-second navigation.
+            - generic [ref=f1e95]:
+              - generic [ref=f1e96]: Next.js
+              - generic [ref=f1e97]: TypeScript
+              - generic [ref=f1e98]: GSAP
+              - generic [ref=f1e99]: Three.js
+        - link "02 Carmine Commerce Headless Storefront Framework · 2025 A headless storefront kit tuned for sub-second category navigation and merchandising without engineering tickets. Next.js GraphQL TypeScript Tailwind" [ref=f1e100] [cursor=pointer]:
+          - /url: /work/carmine-commerce
+          - generic [ref=f1e101]:
+            - img [aria-hidden] [ref=f1e102]:
+              - generic [ref=f1e117]: +
+            - generic [ref=f1e127]: "02"
+          - generic [ref=f1e128]:
+            - heading "Carmine Commerce" [level=2] [ref=f1e129]
+            - paragraph [ref=f1e130]: Headless Storefront Framework · 2025
+            - paragraph [ref=f1e131]: A headless storefront kit tuned for sub-second category navigation and merchandising without engineering tickets.
+            - generic [ref=f1e132]:
+              - generic [ref=f1e133]: Next.js
+              - generic [ref=f1e134]: GraphQL
+              - generic [ref=f1e135]: TypeScript
+              - generic [ref=f1e136]: Tailwind
+        - link "03 Atlas Studio Design-System Engine · 2025 A token pipeline that compiles one source of truth into Figma variables, CSS, native code and docs in a single build. React TypeScript Turborepo Storybook" [ref=f1e137] [cursor=pointer]:
+          - /url: /work/atlas-studio
+          - generic [ref=f1e138]: "03"
+          - generic [ref=f1e147]:
+            - heading "Atlas Studio" [level=2] [ref=f1e148]
+            - paragraph [ref=f1e149]: Design-System Engine · 2025
+            - paragraph [ref=f1e150]: A token pipeline that compiles one source of truth into Figma variables, CSS, native code and docs in a single build.
+            - generic [ref=f1e151]:
+              - generic [ref=f1e152]: React
+              - generic [ref=f1e153]: TypeScript
+              - generic [ref=f1e154]: Turborepo
+              - generic [ref=f1e155]: Storybook
+        - link "04 Pulse OS Operator Dashboard & Automation · 2024 A control-room concept for ops teams where every alert is one gesture away from the runbook that resolves it. React WebSockets Node Postgres" [ref=f1e156] [cursor=pointer]:
+          - /url: /work/pulse-os
+          - generic [ref=f1e157]: "04"
+          - generic [ref=f1e165]:
+            - heading "Pulse OS" [level=2] [ref=f1e166]
+            - paragraph [ref=f1e167]: Operator Dashboard & Automation · 2024
+            - paragraph [ref=f1e168]: A control-room concept for ops teams where every alert is one gesture away from the runbook that resolves it.
+            - generic [ref=f1e169]:
+              - generic [ref=f1e170]: React
+              - generic [ref=f1e171]: WebSockets
+              - generic [ref=f1e172]: Node
+              - generic [ref=f1e173]: Postgres
+        - link "05 Vessel AI Knowledge Interface · 2026 A grounded research interface where every generated answer links back to the paragraph it was drawn from. Next.js Python pgvector OpenAI" [ref=f1e174] [cursor=pointer]:
+          - /url: /work/vessel
+          - generic [ref=f1e175]: "05"
+          - generic [ref=f1e237]:
+            - heading "Vessel" [level=2] [ref=f1e238]
+            - paragraph [ref=f1e239]: AI Knowledge Interface · 2026
+            - paragraph [ref=f1e240]: A grounded research interface where every generated answer links back to the paragraph it was drawn from.
+            - generic [ref=f1e241]:
+              - generic [ref=f1e242]: Next.js
+              - generic [ref=f1e243]: Python
+              - generic [ref=f1e244]: pgvector
+              - generic [ref=f1e245]: OpenAI
+        - link "06 Meridian Cross-Platform Mobile Product · 2024 A field-operations app concept that stays fully usable on a site with no signal and reconciles silently when coverage returns. React Native Expo SQLite TypeScript" [ref=f1e246] [cursor=pointer]:
+          - /url: /work/meridian
+          - generic [ref=f1e247]: "06"
+          - generic [ref=f1e274]:
+            - heading "Meridian" [level=2] [ref=f1e275]
+            - paragraph [ref=f1e276]: Cross-Platform Mobile Product · 2024
+            - paragraph [ref=f1e277]: A field-operations app concept that stays fully usable on a site with no signal and reconciles silently when coverage returns.
+            - generic [ref=f1e278]:
+              - generic [ref=f1e279]: React Native
+              - generic [ref=f1e280]: Expo
+              - generic [ref=f1e281]: SQLite
+              - generic [ref=f1e282]: TypeScript
+  - contentinfo [ref=f1e283]:
+    - generic [ref=f1e284]:
+      - generic [ref=f1e285]:
+        - generic [ref=f1e286]:
+          - generic [ref=f1e287]: Navigate
+          - navigation "Footer" [ref=f1e288]:
+            - link "Services" [ref=f1e289] [cursor=pointer]:
+              - /url: "#services"
+            - link "Work" [ref=f1e290] [cursor=pointer]:
+              - /url: "#work"
+            - link "Process" [ref=f1e291] [cursor=pointer]:
+              - /url: "#process"
+            - link "Studio" [ref=f1e292] [cursor=pointer]:
+              - /url: "#studio"
+            - link "Contact" [ref=f1e293] [cursor=pointer]:
+              - /url: "#contact"
+        - generic [ref=f1e294]:
+          - generic [ref=f1e295]: Elsewhere
+          - generic [ref=f1e296]:
+            - link "X / Twitter" [ref=f1e297] [cursor=pointer]:
+              - /url: https://x.com/
+            - link "Instagram" [ref=f1e298] [cursor=pointer]:
+              - /url: https://instagram.com/
+            - link "LinkedIn" [ref=f1e299] [cursor=pointer]:
+              - /url: https://linkedin.com/
+            - link "GitHub" [ref=f1e300] [cursor=pointer]:
+              - /url: https://github.com/
+            - link "Dribbble" [ref=f1e301] [cursor=pointer]:
+              - /url: https://dribbble.com/
+        - generic [ref=f1e302]:
+          - generic [ref=f1e303]: Studio
+          - paragraph [ref=f1e304]: Operating remotely —working in CET, overlapping globally.
+          - link "hello@blackcarmine.studio" [ref=f1e305] [cursor=pointer]:
+            - /url: mailto:hello@blackcarmine.studio
+          - generic [ref=f1e306]:
+            - generic [ref=f1e308]: "--:--:--"
+            - generic [ref=f1e309]: CET
+        - generic [ref=f1e310]:
+          - generic [ref=f1e311]: Back to the top
+          - link "Top" [ref=f1e312] [cursor=pointer]:
+            - /url: "#top"
+      - generic [aria-hidden]: BlackCarmine
+      - generic [ref=f1e316]:
+        - generic [ref=f1e317]: © 2026 BlackCarmine — all rights reserved
+        - generic [ref=f1e318]:
+          - link "Terms" [ref=f1e319] [cursor=pointer]:
+            - /url: "#top"
+          - link "Privacy" [ref=f1e320] [cursor=pointer]:
+            - /url: "#top"
+  - button "Open Next.js Dev Tools" [ref=f1e326] [cursor=pointer]
